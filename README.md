@@ -1,6 +1,6 @@
 ---
 
-# 💼 Portfólio - Pedro Lucas
+# 💼 Portfólio - Pedro Oliveira
 
 Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com HTML e CSS puro. O objetivo é apresentar minhas habilidades, experiências e projetos de forma clara e responsiva.
 
