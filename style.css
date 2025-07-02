@@ -37,35 +37,59 @@ header {
 }
 
 /* Menu */
-.menu nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0 auto 30px;
+.menu-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 30px;
 }
 
-.menu nav ul li a,
-.btn-voltar,
-.botao-menu {
-  display: inline-block;
+.botao-ala {
+  display: grid;
+  width: 100%;
+  background-color: #4fa3ff;
+  color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.menu nav ul {
+  display: grid;
   background-color: #4fa3ff;
   color: #000;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  width: 90%;              /* botão ocupa 90% da largura do container */
-  max-width: 300px;        /* para não ficar enorme em telas grandes */
-  margin: 10px auto;       /* centraliza e dá espaçamento vertical */
+  width: 90%;
+  max-width: 860px;
   transition: background-color 0.3s ease, color 0.3s ease;
   text-align: center;
 }
 
+.botao-menu {
+  display: block;
+  background-color: #4fa3ff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 90%;
+  max-width: 860px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+}
+
+.botao-menu:hover {
+  background-color: #2b7bd7;
+  color: #fff;
+}
+
 .menu nav ul li a:hover,
-.btn-voltar:hover,
 .botao-menu:hover {
   background-color: #2b7bd7;
   color: #fff;
@@ -98,7 +122,7 @@ h2, h3 {
   color: #e0e0e0;
   margin-bottom: 10px;
 }
-ul {
+.habilidades {
   list-style: none; 
   padding: 0; 
   display: flex; 
