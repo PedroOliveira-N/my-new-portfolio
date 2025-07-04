@@ -7,8 +7,7 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 ## 📄 Seções do Portfólio
 
 - **Sobre mim**: Um pouco mais sobre mim.
-- **Sonhos e Aspirações**: Meus objetivos como programador.
-- **Habilidades**: Lista de tecnologias e ferramentas que domino.
+- **Habilidades e Ferramentas**: Lista de tecnologias e ferramentas que domino.
 - **Projetos**: Meus principais projetos.
 - **Links Úteis**: Alguns links úteis e email para contato.
 
