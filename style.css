@@ -9,11 +9,11 @@
 body {
   background-color: #0f0f0f;
   color: #ccc;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  font-family: 'Segoe UI';
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-size: 120%;
 }
 
 /* Header */
@@ -29,6 +29,13 @@ header {
   align-items: center;
   border-bottom: 2px solid #1A2A40;
   z-index: 1000;
+}
+
+p, a {
+  font-size: 120%;
+  margin-top: 30px;
+  color: #c0c0c0;
+  margin-bottom: 12px;
 }
 
 .logo h1, header h1 {
@@ -132,7 +139,7 @@ h2, h3 {
   gap: 20px;
 }
 
-p, li {
+li {
   margin-top: 30px;
   font-size: 1rem;
   color: #c0c0c0;
